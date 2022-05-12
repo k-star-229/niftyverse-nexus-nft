@@ -1,0 +1,27 @@
+/* .home_gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+} */
+
+/* .profile_gallery {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 5px;
+} */
+
+.profile_gallery img {
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.home_gallery img {
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+
+.home_gallery img:hover,
+.profile_gallery img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
